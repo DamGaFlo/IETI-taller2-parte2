@@ -6,7 +6,7 @@ import escuelaing.edu.ieti.taller2.task.dto.TaskDto;
 import java.util.List;
 
 public interface TaskService {
-    Task create(Task task );
+    Task create(TaskDto taskDto );
 
     Task findById( String id );
 
